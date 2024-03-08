@@ -8,10 +8,12 @@
     --font-size-16: 16px;
     --font-size-20: 20px;
     --font-size-25: 25px;
+    --font-size-30: 30px;
     --font-size-35: 35px;
     --font-size-39: 39px;
     --font-size-42: 42px;
     --font-size-48: 48px;
+    --font-size-64: 64px;
 
     --color-orange: #FF5300;
     --color-grey: #373737;
@@ -235,13 +237,13 @@
 /* ---------------section-3-------------------- */
 .orange-line {
     border-bottom: 1px solid var(--color-orange);
-    width: 40px;
+    width: 20px;
 }
 
 .our-services {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
@@ -249,14 +251,13 @@
 }
 
 .sec-3-heading {
-    font-family: Poppins;
-    font-size: 39px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-lg);
     line-height: 59px;
     letter-spacing: 0em;
     text-align: center;
     font-variant: var(--color-grey);
-
 }
 
 .information-box {
@@ -266,9 +267,9 @@
 }
 
 .info-box-no {
-    font-family: Poppins;
-    font-size: 64px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-64);
+    font-weight: var(--font-weight-lg);
     line-height: 73px;
     letter-spacing: 0em;
     text-align: left;
@@ -276,9 +277,9 @@
 }
 
 .info-box-heading {
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-lg);
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
@@ -286,9 +287,9 @@
 }
 
 .info-box-type {
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 300;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-xsm);
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
@@ -296,10 +297,10 @@
 }
 
 .info-box-para {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-light-grey);
@@ -318,13 +319,180 @@
     margin-top: 24px;
 }
 
-.py-80 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
 .mt-30 {
     margin-top: 30px;
+}
+
+/* -----------------------section-4---------------------- */
+.about-us {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-orange);
+}
+
+.sec-4-heading {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-lg);
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey);
+}
+
+.sec-4-para {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-light-grey);
+}
+
+.sec-4-font-1 {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey);
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* -----------------section-5 -----------------*/
+/* .our-case-study {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-orange);
+}
+
+.sec-5-heading {
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-grey);
+} */
+
+.orange-line {
+    border-bottom: 1px solid var(--color-orange);
+    width: 20px;
+}
+
+.our-case-study {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-orange);
+}
+
+.sec-5-heading {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-lg);
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-variant: var(--color-grey);
+}
+
+.index-buttons {
+    padding: 12px 20px;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+.index-buttons:hover {
+    background-color: var(--color-orange);
+    border-radius: 10px;
+}
+
+.index-buttons:hover p {
+    color: white;
+}
+
+.sec-4-heading-index {
+    overflow-x: auto;
+}
+
+.index-fonts {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-light-grey);
+}
+
+.position-relative {
+    position: relative;
+}
+
+.layer-font {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-white);
+
+}
+
+.image-layer {
+    background-color: var(--color-orange);
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    opacity: 0;
+}
+
+.index-img-box:hover .image-layer {
+    opacity: 75%;
+}
+
+.index-img-box {
+    cursor: pointer;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.m-0 {
+    margin: 0;
 }
 
 @media (min-width:992px) {
@@ -332,8 +500,21 @@
         display: none;
     }
 
+
+    .lg-mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .lg-mb-20 {
+        margin-bottom: 20px;
+    }
+
     .lg-mt-0 {
         margin-top: 0;
+    }
+
+    .lg-mt-20 {
+        margin-top: 20px;
     }
 
     .lg-col-4 {
@@ -353,6 +534,16 @@
         max-width: 604px;
     }
 
+    .sec-4-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg);
+        line-height: 59px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
     .sec-2-para {
         font-family: var(--ff-poppins);
         font-size: var(--font-size-16) !important;
@@ -363,13 +554,7 @@
         color: var(--color-light-grey);
     }
 
-    .lg-mt-20 {
-        margin-top: 20px;
-    }
 
-    .lg-mb-30 {
-        margin-bottom: 30px;
-    }
 }
 
 @media (min-width:768px) {
@@ -385,8 +570,61 @@
         padding-left: 12px;
     }
 
+    .orange-line {
+        border-bottom: 1px solid var(--color-orange);
+        width: 40px !important;
+    }
+
+    .our-services {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: var(--color-orange);
+    }
+
+    .sec-3-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg);
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-variant: var(--color-grey);
+    }
+
+    .our-case-study {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: var(--color-orange);
+    }
+
+    .sec-5-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg);
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-variant: var(--color-grey);
+    }
+
     .md-mt-10 {
         margin: 10px;
+    }
+
+    .md-mt-0 {
+        margin-top: 0;
+    }
+
+    .md-mt-30 {
+        margin-top: 30px;
     }
 
     .md-mb-10 {
@@ -417,9 +655,108 @@
         padding-left: 12px;
     }
 
+    .sm-py-80 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .sm-mb-15 {
+        margin-bottom: 15px;
+    }
+
+    .index-fonts {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+    }
+
+    .sm-mt-15 {
+        margin-top: 15px;
+    }
+
+    .sm-py-90 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .sm-mt-30 {
+        margin-top: 30px;
+    }
+
     .sm-mt-0 {
         margin-top: 0;
     }
+
+    .orange-line {
+        border-bottom: 1px solid var(--color-orange);
+        width: 30px;
+    }
+
+    .info-box-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-lg);
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
+    .info-box-para {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+        max-width: 325px;
+    }
+
+    .sec-3-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-lg);
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-variant: var(--color-grey);
+    }
+
+    .sec-5-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-lg);
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-variant: var(--color-grey);
+    }
+
+    .sec-4-font-1 {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
+    .sec-4-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-lg);
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
 
     .sec-2-heading {
         font-family: var(--ff-poppins);
@@ -432,9 +769,19 @@
         max-width: 604px;
     }
 
+    .sec-4-para {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+    }
+
     .sec-2-para {
         font-family: var(--ff-poppins);
-        font-size: var(--font-size-14);
+        font-size: var(--font-size-16);
         font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
@@ -448,7 +795,7 @@
         background-color: var(--color-orange);
         border: 1px solid var(--color-orange);
         font-family: var(--ff-poppins);
-        font-size: 20px;
+        font-size: var(--font-size-20);
         font-weight: 500;
         line-height: 30px;
         letter-spacing: 0em;
