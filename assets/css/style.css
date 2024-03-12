@@ -43,7 +43,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1320px;
     padding-right: 12px;
     padding-left: 12px;
     margin-right: auto;
@@ -407,26 +407,6 @@
     color: var(--color-orange);
 }
 
-.our-testimonial {
-    font-family: var(--ff-poppins);
-    font-size: var(--font-size-14);
-    font-weight: var(--font-weight-sm);
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: var(--color-orange);
-}
-
-.sec-6-heading {
-    font-family: var(--ff-poppins);
-    font-size: var(--font-size-25);
-    font-weight: var(--font-weight-lg);
-    line-height: 59px;
-    letter-spacing: 0em;
-    text-align: center;
-    font-variant: var(--color-grey);
-}
-
 .sec-5-heading {
     font-family: var(--ff-poppins);
     font-size: var(--font-size-25);
@@ -697,9 +677,9 @@
 
 .reactangle-box-font-1 {
     font-family: Poppins;
-    font-size: 39px;
+    font-size: 25px;
     font-weight: 600;
-    line-height: 59px;
+    line-height: 45px;
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-white);
@@ -707,23 +687,133 @@
 
 .reactangle-box-font-2 {
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-white);
+}
+
+/* ---------------section-9------------------ */
+.our-blogs {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-orange);
+}
+
+.sec-9-heading {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-lg);
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-variant: var(--color-grey);
+}
+
+.sec-9-card {
+    box-shadow: 0px 1px 4px 0px #0000001A;
+    padding: 10px;
+    background-color: var(--color-white);
+}
+
+.sec-9-svg-font {
+    font-family: Work Sans;
+    font-size: var(--font-size-10);
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-grey);
+    text-wrap: nowrap;
+}
+
+.sec-9-card-heading {
+    font-family: Poppins;
+    font-size: 14px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--color-grey);
+}
+
+.sec-9-card-para {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-light-grey);
+}
+
+.read-more {
+    padding: 12px 23px 12px 23px;
+    background-color: var(--color-orange);
+    font-family: Work Sans;
+    font-size: var(--font-size-20);
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
     color: var(--color-white);
+    border-radius: 5px;
+    border: 1px solid var(--color-orange);
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 @media (min-width:1200px) {
     .xl-d-flex {
         display: flex !important;
     }
+
+    .sec-9-card-heading {
+        font-family: Poppins;
+        font-size: 20px !important;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
+    .sec-9-card-para {
+        font-family: Poppins;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+    }
+
+    .sec-9-card {
+        height: unset !important;
+    }
 }
 
-@media (min-width:992px) {
+@media (min-width:992.3px) {
     .lg-d-none {
         display: none;
+    }
+
+    .sec-9-card {
+        height: 590px;
     }
 
     .lg-border-right-1 {
@@ -856,6 +946,26 @@
         padding-left: 12px;
     }
 
+    .sec-9-card-heading {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
+    .sec-9-card-para {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+    }
+
     .orange-line {
         border-bottom: 1px solid var(--color-orange);
         width: 40px !important;
@@ -941,7 +1051,27 @@
         color: var(--color-orange);
     }
 
+    .our-blogs {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: var(--color-orange);
+    }
+
     .sec-6-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg);
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-variant: var(--color-grey);
+    }
+
+    .sec-9-heading {
         font-family: var(--ff-poppins);
         font-size: var(--font-size-39) !important;
         font-weight: var(--font-weight-lg);
@@ -991,6 +1121,10 @@
         padding-left: 12px;
     }
 
+    .lg-d-flex {
+        display: flex;
+    }
+
     .sm-col-3 {
         width: 25%;
         padding-right: 12px;
@@ -1031,6 +1165,26 @@
 
     .sm-mt-0 {
         margin-top: 0;
+    }
+
+    .reactangle-box-font-1 {
+        font-family: Poppins;
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-white);
+    }
+
+    .reactangle-box-font-2 {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-white);
     }
 
     .orange-line {
@@ -1080,6 +1234,16 @@
     }
 
     .sec-6-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-lg);
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-variant: var(--color-grey);
+    }
+
+    .sec-9-heading {
         font-family: var(--ff-poppins);
         font-size: var(--font-size-30);
         font-weight: var(--font-weight-lg);
