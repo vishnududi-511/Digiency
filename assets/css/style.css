@@ -4,9 +4,11 @@
 :root {
     --font-size-10: 10px;
     --font-size-12: 12px;
+    --font-size-13: 13px;
     --font-size-14: 14px;
     --font-size-16: 16px;
     --font-size-20: 20px;
+    --font-size-18: 18px;
     --font-size-23: 23px;
     --font-size-25: 25px;
     --font-size-30: 30px;
@@ -162,7 +164,7 @@
 }
 
 .digiency-2 {
-    font-family: Work Sans;
+    font-family: var(--ff-work_sans);
     font-size: var(--font-size-39);
     font-weight: var(--font-weight-lg);
     line-height: 48px;
@@ -259,8 +261,8 @@
     background-color: var(--color-orange);
     border: 1px solid var(--color-orange);
     font-family: var(--ff-poppins);
-    font-size: 14px;
-    font-weight: 500;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -478,7 +480,7 @@
 }
 
 .index-buttons:hover p {
-    color: white;
+    color: var(--color-white);
 }
 
 .sec-4-heading-index {
@@ -486,9 +488,9 @@
 }
 
 .index-fonts {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -500,9 +502,9 @@
 }
 
 .layer-font {
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-lg);
     line-height: 38px;
     letter-spacing: 0em;
     text-align: center;
@@ -574,9 +576,9 @@
 }
 
 .slider-para {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -584,9 +586,9 @@
 }
 
 .slider-box-heading {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -594,9 +596,9 @@
 }
 
 .slider-box-type {
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 300;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-13);
+    font-weight: var(--font-weight-xsm);
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
@@ -651,9 +653,9 @@
 }
 
 .sec-7-heading {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-lg);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -661,9 +663,9 @@
 }
 
 .sec-7-para {
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
@@ -681,18 +683,18 @@
 }
 
 .sec-7-box-font-1 {
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-lg);
     line-height: 38px;
     letter-spacing: 0em;
     color: var(--color-orange);
 }
 
 .sec-7-box-font-2 {
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 300;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-13);
+    font-weight: var(--font-weight-xsm);
     line-height: 19px;
     letter-spacing: 0em;
     color: var(--color-grey);
@@ -722,9 +724,9 @@
 }
 
 .reactangle-box-font-1 {
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-lg);
     line-height: 45px;
     letter-spacing: 0em;
     text-align: left;
@@ -732,9 +734,9 @@
 }
 
 .reactangle-box-font-2 {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
@@ -769,9 +771,9 @@
 }
 
 .sec-9-svg-font {
-    font-family: Work Sans;
+    font-family: var(--ff-work_sans);
     font-size: var(--font-size-10);
-    line-height: 19px;
+    line-height: var(--font-size-20);
     letter-spacing: 0em;
     text-align: center;
     color: var(--color-grey);
@@ -779,9 +781,9 @@
 }
 
 .sec-9-card-heading {
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 500;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -789,9 +791,9 @@
 }
 
 .sec-9-card-para {
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -801,7 +803,7 @@
 .read-more {
     padding: 10px 15px 10px 15px;
     background-color: var(--color-orange);
-    font-family: Work Sans;
+    font-family: var(--ff-work_sans);
     font-size: var(--font-size-16);
     line-height: 25px;
     letter-spacing: 0em;
@@ -867,9 +869,9 @@
 .subscribe-now {
     padding: 10px 20px 10px 20px;
     background: var(--color-orange);
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
@@ -896,9 +898,9 @@
     border: none;
     outline: none;
     color: var(--color-light-grey);
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -924,7 +926,7 @@
 }
 
 .footer-digiency-2 {
-    font-family: Work Sans;
+    font-family: var(--ff-work_sans);
     font-size: var(--font-size-39);
     font-weight: var(--font-weight-lg);
     line-height: 48px;
@@ -934,9 +936,9 @@
 }
 
 .footer-font-1 {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -944,9 +946,9 @@
 }
 
 .footer-font-2 {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-lg);
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
@@ -954,9 +956,9 @@
 }
 
 .footer-font-3 {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -981,8 +983,8 @@
 }
 
 .copyright {
-    font-family: Work Sans;
-    font-size: 16px;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -1040,9 +1042,9 @@
 @media (min-width:1200px) {
 
     .slider-box-heading {
-        font-family: Poppins;
-        font-size: 20px !important;
-        font-weight: 500;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-20) !important;
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -1057,9 +1059,9 @@
     }
 
     .sec-9-card-heading {
-        font-family: Poppins;
-        font-size: 20px !important;
-        font-weight: 500;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-20) !important;
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -1067,9 +1069,9 @@
     }
 
     .sec-9-card-para {
-        font-family: Poppins;
-        font-size: 16px !important;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16) !important;
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -1185,18 +1187,18 @@
     }
 
     .sec-7-box-font-1 {
-        font-family: Poppins;
-        font-size: 25px !important;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-25) !important;
+        font-weight: var(--font-weight-lg);
         line-height: 38px;
         letter-spacing: 0em;
         color: var(--color-orange);
     }
 
     .sec-7-box-font-2 {
-        font-family: Poppins;
-        font-size: 13px !important;
-        font-weight: 300;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-13) !important;
+        font-weight: var(--font-weight-xsm);
         line-height: 19px;
         letter-spacing: 0em;
         color: var(--color-grey);
@@ -1205,7 +1207,7 @@
     }
 
     .sec-7-heading {
-        font-family: Poppins;
+        font-family: var(--ff-poppins);
         font-size: var(--font-size-39) !important;
         font-weight: var(--font-weight-lg);
         line-height: 59px !important;
@@ -1215,7 +1217,7 @@
     }
 
     .sec-7-para {
-        font-family: Poppins;
+        font-family: var(--ff-poppins);
         font-size: var(--font-size-16) !important;
         font-weight: var(--font-weight-sm);
         line-height: 24px !important;
@@ -1235,7 +1237,7 @@
     }
 
     .footer-digiency-2 {
-        font-family: Work Sans;
+        font-family: var(--ff-work_sans);
         font-size: var(--font-size-39);
         font-weight: var(--font-weight-lg);
         line-height: 48px;
@@ -1245,9 +1247,9 @@
     }
 
     .footer-font-1 {
-        font-family: Poppins;
-        font-size: 16px !important;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16) !important;
+        font-weight: var(--font-weight-sm);
         line-height: 24px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1255,9 +1257,9 @@
     }
 
     .footer-font-2 {
-        font-family: Poppins;
-        font-size: 25px !important;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-25) !important;
+        font-weight: var(--font-weight-lg);
         line-height: 38px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1265,9 +1267,9 @@
     }
 
     .footer-font-3 {
-        font-family: Poppins;
-        font-size: 20px !important;
-        font-weight: 500;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-20) !important;
+        font-weight: var(--font-weight-md);
         line-height: 30px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1290,9 +1292,9 @@
     }
 
     .sec-9-card-heading {
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 500;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -1304,9 +1306,9 @@
     }
 
     .sec-9-card-para {
-        font-family: Poppins;
-        font-size: 14px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-14);
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -1354,18 +1356,18 @@
     }
 
     .sec-7-box-font-1 {
-        font-family: Poppins;
-        font-size: 20px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-lg);
         line-height: 38px;
         letter-spacing: 0em;
         color: var(--color-orange);
     }
 
     .sec-7-box-font-2 {
-        font-family: Poppins;
-        font-size: 10px;
-        font-weight: 300;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-10);
+        font-weight: var(--font-weight-xsm);
         line-height: 19px;
         letter-spacing: 0em;
         color: var(--color-grey);
@@ -1505,7 +1507,7 @@
     .read-more {
         padding: 12px 23px 12px 23px;
         background-color: var(--color-orange);
-        font-family: Work Sans;
+        font-family: var(--ff-work_sans);
         font-size: var(--font-size-20);
         line-height: 25px;
         letter-spacing: 0em;
@@ -1516,9 +1518,9 @@
     }
 
     .slider-box-heading {
-        font-family: Poppins;
+        font-family: var(--ff-poppins);
         font-size: 18px;
-        font-weight: 500;
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -1552,9 +1554,9 @@
     .subscribe-now {
         padding: 15px 30px 15px 30px;
         background: var(--color-orange);
-        font-family: Poppins;
-        font-size: 20px;
-        font-weight: 500;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: center;
@@ -1584,9 +1586,9 @@
     }
 
     .index-fonts {
-        font-family: Poppins;
-        font-size: 20px;
-        font-weight: 500;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -1611,9 +1613,9 @@
     }
 
     .reactangle-box-font-1 {
-        font-family: Poppins;
-        font-size: 39px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-39);
+        font-weight: var(--font-weight-lg);
         line-height: 59px;
         letter-spacing: 0em;
         text-align: left;
@@ -1621,9 +1623,9 @@
     }
 
     .reactangle-box-font-2 {
-        font-family: Poppins;
-        font-size: 20px;
-        font-weight: 500;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -1769,7 +1771,7 @@
         border: 1px solid var(--color-orange);
         font-family: var(--ff-poppins);
         font-size: var(--font-size-20);
-        font-weight: 500;
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -1778,9 +1780,9 @@
     }
 
     .sec-7-heading {
-        font-family: Poppins;
+        font-family: var(--ff-poppins);
         font-size: 30px;
-        font-weight: 600;
+        font-weight: var(--font-weight-lg);
         line-height: 40px;
         letter-spacing: 0em;
         text-align: left;
@@ -1788,9 +1790,9 @@
     }
 
     .sec-7-para {
-        font-family: Poppins;
-        font-size: 14px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-14);
+        font-weight: var(--font-weight-sm);
         line-height: 20px;
         letter-spacing: 0em;
         text-align: left;
@@ -1808,7 +1810,7 @@
     }
 
     .footer-digiency-2 {
-        font-family: Work Sans;
+        font-family: var(--ff-work_sans);
         font-size: var(--font-size-39);
         font-weight: var(--font-weight-lg);
         line-height: 48px;
@@ -1818,9 +1820,9 @@
     }
 
     .footer-font-1 {
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -1828,9 +1830,9 @@
     }
 
     .footer-font-2 {
-        font-family: Poppins;
-        font-size: 23px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-23);
+        font-weight: var(--font-weight-lg);
         line-height: 38px;
         letter-spacing: 0em;
         text-align: left;
@@ -1838,9 +1840,9 @@
     }
 
     .footer-font-3 {
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 500;
+        font-family: var(--ff-poppins);
+        font-size: var(1);
+        font-weight: var(--font-weight-md);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
