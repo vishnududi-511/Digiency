@@ -7,6 +7,7 @@
     --font-size-14: 14px;
     --font-size-16: 16px;
     --font-size-20: 20px;
+    --font-size-23: 23px;
     --font-size-25: 25px;
     --font-size-30: 30px;
     --font-size-35: 35px;
@@ -72,6 +73,18 @@
 
 .col-3 {
     width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-9 {
+    width: 75%;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -267,7 +280,7 @@
     line-height: 59px;
     letter-spacing: 0em;
     text-align: center;
-    font-variant: var(--color-grey);
+    color: var(--color-grey);
 }
 
 .information-box {
@@ -414,7 +427,7 @@
     line-height: 59px;
     letter-spacing: 0em;
     text-align: center;
-    font-variant: var(--color-grey);
+    color: var(--color-grey);
 }
 
 .index-buttons {
@@ -503,7 +516,7 @@
     line-height: 59px;
     letter-spacing: 0em;
     text-align: center;
-    font-variant: var(--color-grey);
+    color: var(--color-grey);
 }
 
 /* slider */
@@ -661,8 +674,6 @@
 }
 
 /* --------------section-8------------ */
-
-
 .rectangle-box {
     background: var(--color-orange);
     padding: 70px 60px 70px 60px;
@@ -713,7 +724,7 @@
     line-height: 59px;
     letter-spacing: 0em;
     text-align: center;
-    font-variant: var(--color-grey);
+    color: var(--color-grey);
 }
 
 .sec-9-card {
@@ -777,9 +788,86 @@
     flex-wrap: wrap;
 }
 
+/* -----------sectoin-10---------- */
+.sec-10-box {
+    background-color: var(--color-orange);
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.newsletter {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.white-line {
+    border-bottom: 1px solid var(--color-white);
+    width: 20px;
+}
+
+.sec-10-heading {
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-23);
+    font-weight: var(--font-weight-lg);
+    line-height: 59px;
+    letter-spacing: 0em;
+    color: var(--color-white);
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.subscribe-now {
+    padding: 10px 20px 10px 20px;
+    background: var(--color-orange);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-white);
+    border: 1px solid var(--color-orange);
+    border-radius: 5px;
+    text-wrap: nowrap;
+}
+
+.email-box {
+    padding: 5px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-email {
+    border: none;
+    outline: none;
+    color: var(--color-light-grey);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 20px;
+}
+
 @media (min-width:1200px) {
     .xl-d-flex {
         display: flex !important;
+    }
+
+    .email-box {
+        padding: 5px;
+        background-color: var(--color-white);
+        border-radius: 5px;
+        width: 650px !important;
     }
 
     .sec-9-card-heading {
@@ -802,9 +890,6 @@
         color: var(--color-light-grey);
     }
 
-    .sec-9-card {
-        height: unset !important;
-    }
 }
 
 @media (min-width:992.3px) {
@@ -812,12 +897,24 @@
         display: none;
     }
 
-    .sec-9-card {
-        height: 590px;
+    .lg-align-items-center {
+        align-items: center;
+    }
+
+    .lg-w-unset {
+        width: unset;
     }
 
     .lg-border-right-1 {
         border-right: 3px solid white;
+    }
+
+    .lg-flex-direction-row {
+        flex-direction: row;
+    }
+
+    .email-box {
+        width: 503px
     }
 
     .lg-border-right-2 {
@@ -971,6 +1068,11 @@
         width: 40px !important;
     }
 
+    .white-line {
+        border-bottom: 1px solid var(--color-white);
+        width: 40px !important;
+    }
+
     .our-services {
         font-family: var(--ff-poppins);
         font-size: var(--font-size-16);
@@ -988,7 +1090,7 @@
         line-height: 59px;
         letter-spacing: 0em;
         text-align: center;
-        font-variant: var(--color-grey);
+        color: var(--color-grey);
     }
 
     .our-case-study {
@@ -1031,6 +1133,16 @@
         color: var(--color-orange);
     }
 
+    .newsletter {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-white);
+    }
+
     .sec-5-heading {
         font-family: var(--ff-poppins);
         font-size: var(--font-size-39) !important;
@@ -1038,7 +1150,7 @@
         line-height: 59px;
         letter-spacing: 0em;
         text-align: center;
-        font-variant: var(--color-grey);
+        color: var(--color-grey);
     }
 
     .our-testimonial {
@@ -1068,7 +1180,7 @@
         line-height: 59px;
         letter-spacing: 0em;
         text-align: center;
-        font-variant: var(--color-grey);
+        color: var(--color-grey);
     }
 
     .sec-9-heading {
@@ -1078,7 +1190,16 @@
         line-height: 59px;
         letter-spacing: 0em;
         text-align: center;
-        font-variant: var(--color-grey);
+        color: var(--color-grey);
+    }
+
+    .sec-10-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg);
+        line-height: 59px;
+        letter-spacing: 0em;
+        color: var(--color-white);
     }
 
     .md-mt-10 {
@@ -1119,6 +1240,31 @@
         width: 50%;
         padding-right: 12px;
         padding-left: 12px;
+    }
+
+    .sm-flex-firection-row {
+        flex-direction: row;
+    }
+
+    .sec-10-box {
+        background-color: var(--color-orange);
+        padding: 65px 40px 65px 40px;
+        border-radius: 10px;
+    }
+
+    .subscribe-now {
+        padding: 15px 30px 15px 30px;
+        background: var(--color-orange);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: var(--color-white);
+        border: 1px solid var(--color-orange);
+        border-radius: 5px;
+        text-wrap: nowrap;
     }
 
     .lg-d-flex {
@@ -1192,6 +1338,11 @@
         width: 30px;
     }
 
+    .white-line {
+        border-bottom: 1px solid var(--color-white);
+        width: 30px;
+    }
+
     .info-box-heading {
         font-family: var(--ff-poppins);
         font-size: var(--font-size-25);
@@ -1220,7 +1371,7 @@
         line-height: 59px;
         letter-spacing: 0em;
         text-align: center;
-        font-variant: var(--color-grey);
+        color: var(--color-grey);
     }
 
     .sec-5-heading {
@@ -1230,7 +1381,7 @@
         line-height: 59px;
         letter-spacing: 0em;
         text-align: center;
-        font-variant: var(--color-grey);
+        color: var(--color-grey);
     }
 
     .sec-6-heading {
@@ -1240,7 +1391,7 @@
         line-height: 59px;
         letter-spacing: 0em;
         text-align: center;
-        font-variant: var(--color-grey);
+        color: var(--color-grey);
     }
 
     .sec-9-heading {
@@ -1250,7 +1401,16 @@
         line-height: 59px;
         letter-spacing: 0em;
         text-align: center;
-        font-variant: var(--color-grey);
+        color: var(--color-grey);
+    }
+
+    .sec-10-heading {
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-lg);
+        line-height: 59px;
+        letter-spacing: 0em;
+        color: var(--color-white);
     }
 
     .sec-4-font-1 {
