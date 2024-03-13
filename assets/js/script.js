@@ -7,7 +7,7 @@ menubox.addEventListener("click", function () {
 
 $('.sliderbox').slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     prevArrow: '.prev',
     nextArrow: '.next',
     speed: 300,
@@ -19,6 +19,7 @@ $('.sliderbox').slick({
             breakpoint: 1400,
             settings: {
                 autoplay: true,
+                infinite: true,
                 slidesToShow: 2,
                 slidesToScroll: 1,
             }
@@ -29,6 +30,7 @@ $('.sliderbox').slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 autoplay: true,
+                infinite: true,
             }
         },
         {
@@ -37,6 +39,7 @@ $('.sliderbox').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 autoplay: true,
+                infinite: true,
             }
         },
 
