@@ -978,7 +978,7 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 .svg-circle {
@@ -1047,6 +1047,24 @@
 
 .scroll-button:hover path {
     fill: var(--color-orange);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-orange);
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 @media (min-width:1400px) {
